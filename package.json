@@ -1,0 +1,27 @@
+{
+  "name": "drizzle-gql-generation",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --env-file=.env src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "drizzle-graphql": "^0.8.5",
+    "drizzle-orm": "^0.38.0",
+    "graphql": "^16.9.0",
+    "graphql-yoga": "^5.10.4",
+    "hono": "^4.6.13",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@types/pg": "^8.11.10",
+    "dotenv": "^16.4.7",
+    "drizzle-kit": "^0.30.0",
+    "tsx": "^4.7.1"
+  },
+  "packageManager": "pnpm@9.14.4+sha256.26a726b633b629a3fabda006f696ae4260954a3632c8054112d7ae89779e5f9a",
+  "engines": {
+    "node": ">=20"
+  }
+}
